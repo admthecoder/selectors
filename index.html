@@ -8,15 +8,23 @@
         <link href="css/pre.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
         <style>
-            div#id-div{
+            
+            li.my-list{
                 background-color:yellow;
             }
+             
+            li.my-list{
+                background-color:orange;
+            }
         </style>
+
+
+
     </head>
     <body>
         <header>
             
-            <h1 class="page-header">CSS Selectors by NAME HERE</h1>
+            <h1 class="page-header">CSS Selectors by ADAM IBRAHIM</h1>
             
         <nav>
             <ul>
@@ -35,12 +43,33 @@
             <pre><code>id="id-div"</code></pre>
             <p>Here's how the CSS is applied to the element:</p>
             <pre><code>div#id-div{
-    background-color:yellow;
+    background-color:orange;
 }</code></pre>
 
 
             <p>Here's what it looks like:</p>
             <div id="id-div">Inside my-div</div>
+        </fieldset>
+
+
+        <fieldset>
+            <legend><a id="class">class</a></legend>
+            <p>Here's how the CSS is applied to the element:</p>
+            <pre><code>class="my-list"</code></pre>
+            <p>Here's how the CSS is applied to the element:</p>
+            <pre><code>class="my-list">{
+    background-color:orange
+}</code></pre>
+
+
+            <p>Here's what it looks like:</p>
+            <div>
+            <ul>
+            <li class="my-list">I'm inside an li with a class of my-list</li>
+            <li class="my-list">I'm inside an li with a class of my-list</li>
+            <li class="my-list">I'm inside an li with a class of my-list</li>
+        </ul>
+    </div>
         </fieldset>
 
         <footer class="page-footer">
